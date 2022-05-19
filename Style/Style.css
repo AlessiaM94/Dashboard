@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(214, 208, 199, 0.933);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+  
+  }
+
+  #vuoto {
+    position: static;
+        height: 10px;
+        display: flex;
+        align-items: center;
+        padding: 0 100px;
+  }
+ 
+  .col-sm-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #aa303c;
+    border-radius: 2.25rem; }
+
+  .btn-outline-secondary {
+    color: #fff;
+    border-color: #aa303c;
+    background-color: rgb(13 110 253 / 25%);}
+
+  .btn-danger {
+    color: #fff;
+    background-color: rgb(13 110 253 / 25%);
+    border-color: #aa303c; }
